@@ -1,0 +1,16 @@
+{
+  "name": "nodebird-myself_nuxt",
+  "version": "1.0.0",
+  "description": "Twitter Clone cording by nuxt ",
+  "main": "index.js",
+  "repository": "https://github.com/CHEOLHUN/nodebird-myself_nuxt.git",
+  "author": "Rooney",
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^2.12.2",
+    "vue": "^2.6.11"
+  },
+  "scripts": {
+    "dev": "nuxt"
+  }
+}
