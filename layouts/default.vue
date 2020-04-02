@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <header>
+  <div class="layout">
+    <header class="layout__header">
       <navbar />
     </header>
     <div class="layout__body">
@@ -27,6 +27,12 @@ export default {
 </script>
 
 <style scoped>
+.layout{
+  width: 100%;
+}
+.layout__header{
+  width: 100%;
+}
 .layout__body {
   display: flex;
 }
