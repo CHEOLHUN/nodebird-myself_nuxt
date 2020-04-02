@@ -1,11 +1,17 @@
 <template>
   <section>
-      게시물
+    <content-form />
   </section>
 </template>
 
 <script>
-export default {};
+import ContentForm from "@/components/ContentForm.vue";
+
+export default {
+  components: {
+    ContentForm
+  }
+};
 </script>
 
 <style scoped></style>

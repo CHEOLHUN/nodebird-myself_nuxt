@@ -27,13 +27,14 @@ export default {
 </script>
 
 <style scoped>
-.layout{
+.layout {
   width: 100%;
 }
-.layout__header{
+.layout__header {
   width: 100%;
 }
 .layout__body {
+  width: 100%;
   display: flex;
 }
 
@@ -43,6 +44,6 @@ export default {
 }
 
 .layout__content {
-  widows: 66%;
+  width: 66%;
 }
 </style>
